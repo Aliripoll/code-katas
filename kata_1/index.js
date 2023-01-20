@@ -20,3 +20,28 @@ for (let i = numbers.length-1; i >= 0; i--) {
     
 }
 console.log(secondSolution);
+
+
+/*
+AMPLIACIÓN 1
+OBJETIVO: Almacenar los números mayores que 5
+Input: [5, 2, 7, 8, 3, 10, 22, 1, 6]
+Output:  [7, 8, 10, 22, 6]
+*/
+
+const nums = [5, 2, 7, 8, 3, 10, 22, 1, 6];
+
+let result = nums.filter(num => num > 5);
+console.log(result);
+
+
+
+let solution = [];
+
+for (let i = 0; i <= nums.length-1; i++) {
+    if (nums[i] > 5) {
+        solution.push(nums[i]);
+    }    
+}
+console.log(solution);
+
