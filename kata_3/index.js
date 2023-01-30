@@ -31,9 +31,14 @@ Ejemplo 2 añadir al final:
 Input: [1, 6, 9]
 Output: [1, 6, 9, 12]
  */
+
+///////////// Alternativa 1 ////////////
 const secondNumbers = [1, 6, 9];
 const secondArray = secondNumbers.push(12);
-console.log(secondNumbers);
+console.log(secondNumbers); 
+
+/////////// Alternativa 2 ///////////
+console.log(...secondNumbers, 12);
 
 /* Ejemplo 3 eliminar al principio:
 Input: [1, 6, 9]
