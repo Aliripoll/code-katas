@@ -16,7 +16,7 @@ Examples (input -> output)
 
 let array1 = [1, 2, 3, 4, 5];
 let array2 = [6, 7, 8, 9, 10]; 
-let array3= [1, 3, 5, 7, 9];
+let array3 = [1, 3, 5, 7, 9];
 let array4 = [10, 8, 6, 4, 2];
 let array5 = [1, 3, 5, 7, 9, 11, 12];
 let array6 = [1, 2, 3, 4, 5, 10, 12];
