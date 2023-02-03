@@ -18,9 +18,11 @@ OBJETIVO: Dado un array de números enteros, escriba una función que devuelva t
 CONSIDERACIONES: Entregar 2 soluciones posibles, una usando new Set() y otra sin usarlo.
 ---
 #### Kata 3: 
+
 OBJETIVO: Agregar y eliminar elementos de un array.
 Escriba una función que agregue o elimine un elemento en la primera o última posición de un array.
 CONSIDERACIONES: presentar varias alternativas, una con mutación del array y otra sin mutación (editado)
+
 ---
 #### Kata 4: 
 
