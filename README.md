@@ -3,7 +3,7 @@
 ###### Kata 1: 
 
 OBJETIVO: Dado un array, devuelve el array invertido. 
-* Input: [1, 2, 3]. Output:  [3, 2, 1]
+* Input: [1, 2, 3]. Output:  [3, 2, 1].   
 CONSIDERACIONES: Entregar 2 soluciones posibles, una usando Array.prototype.reverse y otra sin usarlo 
 
 - AMPLIACIÓN 1
@@ -14,7 +14,7 @@ OBJETIVO: Almacenar los números mayores que 5.
 ###### Kata 2: 
 
 OBJETIVO: Dado un array de números enteros, escriba una función que devuelva true cuando el array tenga valores duplicados.
-* Input: [1, 1, 2, 2, 3, 5, 9, 9]. Output: true
+* Input: [1, 1, 2, 2, 3, 5, 9, 9]. Output: true. 
 CONSIDERACIONES: Entregar 2 soluciones posibles, una usando new Set() y otra sin usarlo.
 ---
 ###### Kata 3: 
@@ -74,7 +74,6 @@ array: Un array de objetos. Dentro del cuerpo de la función getNames debes escr
 Ejemplo:
 
 * Input: [ { name: 'Nicolas', lastName: 'Molina', age: 28 }, { name: 'Valentina', lastName: 'Molina', age: 19 }, { name: 'Zulema', lastName: 'Vicente', age: 21 }, ]
-
 * Output: ['Nicolas', 'Valentina', 'Zulema']
 
 - AMPLIACIÓN
@@ -94,7 +93,6 @@ array: Un array de objetos. Dentro del cuerpo de la función addNewAttr debes es
 
 Ejemplo:
 * Input: [ { name: "Product 1", price: 1000, stock: 10 }, { name: "Product 2", price: 2000, stock: 20 } ]
-
 * Output: [ { name: "Product 1", price: 1000, stock: 10, taxes: 190 }, { name: "Product 2", price: 2000, stock: 20, taxes: 380 } ]
 ---
 ###### Kata 10: 
@@ -112,19 +110,3 @@ Ejemplo 2:
 
 - AMPLIACIÓN
 Además debe contener la vocal "i".
----
-
-###### Kata 11: 
-
-Tienes un array de objetos que representan ordenes de compra con los siguientes atributos:
-customerName: string total: number delivered: boolean Tu reto es filtrar todas las órdenes de compra que cumplan con la condición de tener un total mayor o igual a 100 y además que el estado delivered sea "true".
-
-Para solucionarlo vas a encontrar una función llamada filterOrders que recibe un parámetro de entrada:
-
-array: Un array de objetos Dentro del cuerpo de la función filterOrders debes escribir tu solución.
-
-Ejemplo:
-
-Input: [ { customerName: "Nicolas", total: 100, delivered: true, }, { customerName: "Zulema", total: 120, delivered: false, }, { customerName: "Santiago", total: 300, delivered: true, } ]
-
-Output: [ { customerName: "Nicolas", total: 100, delivered: true, }, { customerName: "Santiago", total: 300, delivered: true, } ]
