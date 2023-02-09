@@ -210,3 +210,34 @@ Ejemplo 3:
 
 Ejemplo 4: 
 * Input: [] Output: false
+---
+
+#### Kata 17:
+
+Tu reto es retornar "Tienes el AS" si dentro de array de strings tienes la palabra AS y si no tienes el AS entonces deberás retornar "No tienes el AS", para solucionarlo vas a encontrar una función llamada findAs que recibe un parámetro de entrada:
+numbers: Un array de strigs con nombres de cartas de Poker. Dentro del cuerpo de la función findAs debes escribir tu solución.
+
+Ejemplo 1:
+* Input: ['diamonds', 'hearts', 'spades', 'AS'] Output: 'Tienes el AS'
+
+Ejemplo 2:
+* Input: ['diamonds', 'hearts', 'spades'] Output:'No tienes el AS'
+
+AMPLIACIÓN: Intentar hacer la función utilizando el operador ternario, simplificando el código a una linea.
+---
+
+#### Kata 18:
+
+Dado un array de strings tu reto es retornar la posición dentro del array en donde existe la palabra clave "myKey" y si no existe deberás retornar false, para solucionarlo vas a encontrar una función llamada findMyKey que recibe un parámetro de entrada:
+array: Un array de strigs. Dentro del cuerpo de la función findMyKey debes escribir tu solución.
+
+Ejemplo 1:
+* Input: ["diamonds", "myKey", "spades", "AS"] Output: 1
+
+Ejemplo 2:
+* Input: ["diamonds", "hearts", "spades"] Output: false
+
+Ejemplo 3:
+* Input: ["myKey", "hearts", "spades"] Output: 0
+
+AMPLIACIÓN : simplificarlo en una sola línea utilizando el operador ternario.
