@@ -223,13 +223,14 @@ Ejemplo 1:
 Ejemplo 2:
 * Input: ['diamonds', 'hearts', 'spades'] Output:'No tienes el AS'
 
-AMPLIACIÓN: Intentar hacer la función utilizando el operador ternario, simplificando el código a una linea.
+AMPLIACIÓN: 
+Intentar hacer la función utilizando el operador ternario, simplificando el código a una linea.
 ---
 
 #### Kata 18:
 
 Dado un array de strings tu reto es retornar la posición dentro del array en donde existe la palabra clave "myKey" y si no existe deberás retornar false, para solucionarlo vas a encontrar una función llamada findMyKey que recibe un parámetro de entrada:
-array: Un array de strigs. Dentro del cuerpo de la función findMyKey debes escribir tu solución.
+array: Un array de strings. Dentro del cuerpo de la función findMyKey debes escribir tu solución.
 
 Ejemplo 1:
 * Input: ["diamonds", "myKey", "spades", "AS"] Output: 1
@@ -241,3 +242,34 @@ Ejemplo 3:
 * Input: ["myKey", "hearts", "spades"] Output: 0
 
 AMPLIACIÓN : simplificarlo en una sola línea utilizando el operador ternario.
+---
+
+#### kata 19:
+
+Dado un array de strings tu reto es retornar un string en donde cada elemento del array esté separado por comas, para solucionarlo vas a encontrar una función llamada joinString que recibe un parámetro de entrada:
+words: Un array de strings. Dentro del cuerpo de la función joinString debes escribir tu solución.
+
+Ejemplo 1:
+* Input: ["amor", "sol", "piedra", "día"] Output: "amor,sol,piedra,día" solution();
+
+Ejemplo 2:
+* Input: ["diamonds", "hearts", "spades"] Output: "diamonds,hearts,spades"
+---
+
+#### kata 20:
+
+En este desafío vas a recibir el título de un artículo y tú debes transformarlo en un formato de URL en donde normalmente se transforma todo en minúscula y se cambian los espacios por un guion (-).
+
+Para solucionarlo vas a encontrar una función llamada parseToURL que recibe un parámetro de entrada:
+
+title: Un String con el título.
+Dentro del cuerpo de la función parseToURL debes escribir tu solución.
+
+Ejemplo 1:
+* Input: "La forma de correr Python" Output: "la-forma-de-correr-python"
+
+Ejemplo 2:
+* Input: "La API para nunca parar de aprender" Output:"la-api-para-nunca-parar-de-aprender"
+
+Ejemplo 3:
+* Input: "Curso de arrays" Output: "curso-de-arrays"
