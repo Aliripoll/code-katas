@@ -20,11 +20,7 @@ let textTwo = "Santiago";
 let textThree = "Nicolas";
 
 function checkInString(text, term) {
-    if(text.toLowerCase().includes(term.toLowerCase())) {
-        return true;
-    } else {
-        return false;
-    }
+    return text.toLowerCase().includes(term.toLowerCase()) ? true : false;
 }
 checkInString(textOne, "ana")
 checkInString(textTwo, "tiago")

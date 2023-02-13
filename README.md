@@ -225,6 +225,7 @@ Ejemplo 2:
 
 AMPLIACIÓN: 
 Intentar hacer la función utilizando el operador ternario, simplificando el código a una linea.
+
 ---
 
 #### Kata 18:
@@ -242,6 +243,7 @@ Ejemplo 3:
 * Input: ["myKey", "hearts", "spades"] Output: 0
 
 AMPLIACIÓN : simplificarlo en una sola línea utilizando el operador ternario.
+
 ---
 
 #### kata 19:
