@@ -371,3 +371,101 @@ Output:
   "Viajar",
   "Aprender"
 ]
+
+* AMPLIACIÓN: Ordenar igual pero solo las palabras que contengan la letra que se le pase como argumento a la función 
+
+/*Input:
+[
+  "Hola",
+  "Viajar",
+  "Sol",
+  "Aprender"
+]
+
+"r"
+
+Output:
+[
+  "Viajar",
+  "Aprender"
+]
+
+---
+
+#### Kata 26:
+
+En este desafío tienes un array que contiene otros arrays internos, tu reto es retornar un array que tenga los elementos de los otros arrays eliminando los arrays internos y dejando solo los valores, normalmente a esto le llamamos aplanar el array o "Flattening Algorithm".
+
+Para solucionarlo vas a encontrar una función llamada flatArray que recibe un parámetro de entrada:
+
+array: Un array que tiene otros arrays dentro
+Dentro del cuerpo de la función flatArray debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]
+
+Output:
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+--- 
+
+#### Kata 27:
+
+Tienes un array de objetos que representan personas con los siguientes atributos:
+
+name: string
+dateOfBirth: Date
+Tu reto es retornar una lista con los nombres de las personas ordenadas por la fecha de nacimiento de la más reciente a la más antigua.
+
+Para solucionarlo vas a encontrar una función llamada sortByDate que tiene un parámetro de entrada:
+
+array: Un array de objetos.
+Dentro del cuerpo de la función sortByDate debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+  {
+    name: "Nicolas",
+    dateOfBirth: new Date(1993, 6, 9),
+  },
+  {
+    name: "Santiago",
+    dateOfBirth: new Date(2018, 6, 11),
+  },
+  {
+    name: "Zulema",
+    dateOfBirth: new Date(1994, 10, 7),
+  },
+]
+
+Output: ["Santiago", "Zulema", "Nicolas"]
+
+* AMPLIACIÓN: Ordena por fecha de nacimiento y saca los nombres de las personas cuya longitud sea mayor al número recibido por parámetros. 
+
+/*Input:
+[
+  {
+    name: "Nicolas",
+    dateOfBirth: new Date(1993, 6, 9),
+  },
+  {
+    name: "Santiago",
+    dateOfBirth: new Date(2018, 6, 11),
+  },
+  {
+    name: "Zulema",
+    dateOfBirth: new Date(1994, 10, 7),
+  },
+]
+,
+7
+
+Output: ["Santiago"]
