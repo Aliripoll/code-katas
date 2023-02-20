@@ -450,7 +450,7 @@ Output: ["Santiago", "Zulema", "Nicolas"]
 
 * AMPLIACIÓN: Ordena por fecha de nacimiento y saca los nombres de las personas cuya longitud sea mayor al número recibido por parámetros. 
 
-/*Input:
+Input:
 [
   {
     name: "Nicolas",
@@ -469,3 +469,31 @@ Output: ["Santiago", "Zulema", "Nicolas"]
 7
 
 Output: ["Santiago"]
+
+---
+
+#### Kata 28:
+
+Tienes un array con una lista de strings que representan el nombre y apellido de varios usuarios, tu reto es retornar ese array ordenado alfabéticamente por el apellido, para solucionarlo vas a encontrar una función llamada sortByLastName que tiene un parámetro de entrada:
+
+array: Un array de strings.
+Dentro del cuerpo de la función sortByLastName debes escribir tu solución.
+
+Ejemplo:
+
+Input:
+[
+  "Nicolas Molina",
+  "Andrea Perez",
+  "Zulema Vicente",
+  "Juan Amador"
+]
+
+Output:
+[
+  "Juan Amador",
+  "Nicolas Molina",
+  "Andrea Perez",
+  "Zulema Vicente"
+]
+
