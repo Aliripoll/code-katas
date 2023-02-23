@@ -1,4 +1,4 @@
-/* En este desafío tienes un array de números el cual va a tener tanto números negativos como positivos y el reto es usando la función sort de JavaScript ordenarlos de mayor a menor.
+ /* En este desafío tienes un array de números el cual va a tener tanto números negativos como positivos y el reto es usando la función sort de JavaScript ordenarlos de mayor a menor.
 
 Para solucionarlo vas a encontrar una función llamada sortDesc que tiene un parámetro de entrada:
 
