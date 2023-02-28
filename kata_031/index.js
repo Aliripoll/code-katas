@@ -19,6 +19,7 @@ Input: ["A", "B"], "C"
 Output: ["A", "B", "C"] */
 
 let num = [1, 2, 3];
+let letters = ["A", "B"];
 
 
 function addNumber(numbers, item) {
@@ -31,3 +32,4 @@ function addNumber(numbers, item) {
 
 
 addNumber(num, 4);
+addNumber(letters, "C");
