@@ -34,3 +34,4 @@ function updateArray(array, index, newValue) {
 
 updateArray(firstArray, 0, "change")
 updateArray(secondArray, 1, 1);
+
