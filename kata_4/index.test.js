@@ -1,0 +1,2 @@
+const mergeArrays = require("./index");
+
