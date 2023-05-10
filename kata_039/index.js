@@ -41,8 +41,7 @@ Output:
         ];
 
         function setStock (array, integer) {
-            return array
-            .sort((a, b) => b.price - a.price)
+            return array 
             .map((product) => {
 
                 if(product.stock > 0) {
@@ -59,7 +58,7 @@ Output:
 
                 return product;
             })
-
+            .sort((a, b) => b.price - a.price)
         }
 
         setStock(stockInfo, 7)
