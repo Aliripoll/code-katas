@@ -999,7 +999,7 @@ Parámetros de la funcion: array: Un array de objetos, quantity
 Tu reto es retornar un array con los sueldos que sean mayores que el segundo parámetro "quantity". Si son mayores, deberás
 crear una propiedad nueva llamada "check" y que de valor sea la mitad del "salary"
 
-//Ampliación 1
+** Ampliación 1
 
 Input:
 [
@@ -1038,3 +1038,63 @@ Input:
   }
 ]
 
+** Ampliación 2
+
+Parámetros de la funcion: array: Un array de objetos, array de names
+
+Tu reto es retornar un array con los mismos usuarios, pero si el nombre se encuentra en el array de "names", debes
+crear una nueva propiedad "checkIn" con el valor del índice en el array dónde se encuentra el nombre. Si no está
+el nombre, el valor de "checkIn" debe ser null.
+
+Input:
+[
+  {
+    name: "Nicolás",
+    dateOfBirth: new Date(1993, 6, 9),
+    salary: 15000
+  },
+  {
+    name: "Héctor",
+    dateOfBirth: new Date(2018, 6, 11),
+    salary: 24000
+  },
+  {
+    name: "Zulema",
+    dateOfBirth: new Date(1994, 10, 7),
+    salary: 21500
+  },
+  {
+    name: "Dolores",
+    dateOfBirth: new Date(1974, 10, 7),
+    salary: 38000
+  }
+],
+["Zulema", "José Luis", "Kiri", "Paco", "Juana", "Mercedes", "Héctor", "Alicia"]
+
+Output:
+[
+  {
+    name: "Nicolás",
+    dateOfBirth: new Date(1993, 6, 9),
+    salary: 15000,
+    checkIn: null
+  },
+  {
+    name: "Héctor",
+    dateOfBirth: new Date(2018, 6, 11),
+    salary: 24000,
+    checkIn: 6
+  },
+  {
+    name: "Zulema",
+    dateOfBirth: new Date(1994, 10, 7),
+    salary: 21500,
+    checkIn: 0
+  },
+  {
+    name: "Dolores",
+    dateOfBirth: new Date(1974, 10, 7),
+    salary: 38000,
+    checkIn: null
+  }
+]
