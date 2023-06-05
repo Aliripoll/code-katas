@@ -1143,3 +1143,55 @@ Input:
 
 Output:  19366,66
 Explicación output: (15000+21500+21600) / 3, porque solo 3 cumple la condición de tener una "a" en su atributo "name"
+
+---
+
+#### Kata 43:
+
+Tienes un array de objetos que representan datos de personas con los siguientes atributos:
+name: string, lastName: string, age: number. Tu reto es retornar la suma de las edades.
+
+array: Un array de objetos.
+edad: Entero que indica.
+
+ES OBLIGATORIO HACERLO CON UN BUCLE FOR
+
+Ejemplo:
+
+Input: [ 
+    { name: 'Nicolas', lastName: 'Molina', age: 18 }, 
+    { name: 'Valentina', lastName: 'Molina', age: 19 }, 
+    { name: 'Zulema', lastName: 'Vicente', age: 21 }, 
+    { name: 'Jose Luis', lastName: 'Muñoz', age: 31 }, 
+    { name: 'Pedro', lastName: 'Serrano', age: 26 }, 
+]
+
+Output: 115
+
+
+*** AMPLIACION 1
+Retornar la media de edad
+
+Input: [ 
+    { name: 'Nicolas', lastName: 'Molina', age: 18 }, 
+    { name: 'Valentina', lastName: 'Molina', age: 19 }, 
+    { name: 'Zulema', lastName: 'Vicente', age: 21 }, 
+    { name: 'Jose Luis', lastName: 'Muñoz', age: 31 }, 
+    { name: 'Pedro', lastName: 'Serrano', age: 26 }, 
+]
+
+Output: 23
+
+***AMPLIACION 2
+Recibes 2 argumentos, array con personas y un número (edad máxima). Retornar la media de edad de las personas que sean menores o iguales que el argumento "edad máxima"
+
+Input: [ 
+    { name: 'Nicolas', lastName: 'Molina', age: 18 }, 
+    { name: 'Valentina', lastName: 'Molina', age: 19 }, 
+    { name: 'Zulema', lastName: 'Vicente', age: 21 }, 
+    { name: 'Jose Luis', lastName: 'Muñoz', age: 31 }, 
+    { name: 'Pedro', lastName: 'Serrano', age: 26 }, 
+],
+21
+
+Output: 19,33
