@@ -1355,3 +1355,22 @@ Output:
 32750
 
 Explicación: Mercedes y Sara cumplen  la condición, por lo tanto, 27500+38000 / 2 = 32750
+
+---
+
+#### Kata 47: 
+
+Tienes un array de strings con nombres de personas
+
+Tu reto es el último nombre que contenga la letra pasada como 2º argumento
+
+Parámetros de la funcion: array: Un array de strings, un string: letra
+
+Input:
+["Alicia", "Diego", "José Luis", "Camila", "Alfonso", "Helena"], "s"
+
+Output:
+Alfonso
+
+
+Explicación: José Luis también contiene una "s", pero el último del array es Alfonso
