@@ -1488,3 +1488,16 @@ Output:
             { name: "Pelacables amarillo", price: 1800, stock: 22 }, 
             { name: "Motosierra con 6 velocidades", price: 1700, stock: 14 }, 
         ]
+
+AMPLIACIÓN 1:
+La función debe hacer lo siguiente:
+- Devolver solo los productos que tengan como stock un número par y además debe crear un atributo con el nombre "isEven" con el valor true.
+
+Hazlo en otra función llamada getEvensV2()
+
+Output:
+    [
+        { name: "Tablón madera", price: 1000, stock: 6, isEven: true },
+        { name: "Pelacables amarillo", price: 1800, stock: 22, isEven: true }, 
+        { name: "Motosierra con 6 velocidades", price: 1700, stock: 14, isEven: true }, 
+    ]         
