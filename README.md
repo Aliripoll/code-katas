@@ -1489,7 +1489,7 @@ Output:
             { name: "Motosierra con 6 velocidades", price: 1700, stock: 14 }, 
         ]
 
-AMPLIACIÓN 1:
+**AMPLIACIÓN 1:
 La función debe hacer lo siguiente:
 - Devolver solo los productos que tengan como stock un número par y además debe crear un atributo con el nombre "isEven" con el valor true.
 
@@ -1500,4 +1500,18 @@ Output:
         { name: "Tablón madera", price: 1000, stock: 6, isEven: true },
         { name: "Pelacables amarillo", price: 1800, stock: 22, isEven: true }, 
         { name: "Motosierra con 6 velocidades", price: 1700, stock: 14, isEven: true }, 
-    ]         
+    ]       
+
+
+**AMPLIACIÓN 2:
+La función debe hacer lo siguiente:
+- Aparte de lo que hace en la función getEvensV2, añadir un ordenado descendente por el campo "stock"
+
+Hazlo en otra función llamada getEvensV2_1()
+
+Output:
+    [
+        { name: "Pelacables amarillo", price: 1800, stock: 22, isEven: true }, 
+        { name: "Motosierra con 6 velocidades", price: 1700, stock: 14, isEven: true }, 
+        { name: "Tablón madera", price: 1000, stock: 6, isEven: true }
+    ]       

@@ -81,3 +81,43 @@ Output:
     }
 
     getEvensV2(info2);
+
+
+    /* //AMPLIACIÓN 2:
+La función debe hacer lo siguiente:
+- Aparte de lo que hace en la función getEvensV2, añadir un ordenado descendente por el campo "stock"
+
+Hazlo en otra función llamada getEvensV2_1()
+
+Output:
+    [
+        { name: "Pelacables amarillo", price: 1800, stock: 22, isEven: true }, 
+        { name: "Motosierra con 6 velocidades", price: 1700, stock: 14, isEven: true }, 
+        { name: "Tablón madera", price: 1000, stock: 6, isEven: true }
+    ]  */
+
+let info3 = [
+    { name: "Tablón madera", price: 1000, stock: 6 },
+    { name: "Secador de mano", price: 2000, stock: 21 }, 
+    { name: "Pelacables amarillo", price: 1800, stock: 22 }, 
+    { name: "Motosierra con 6 velocidades", price: 1700, stock: 14 }, 
+    { name: "Clavos del 3", price: 3600, stock: 43 }, 
+    { name: "Martillo de hierro", price: 2600, stock: 5 }
+];    
+
+
+function getEvensV2_1(array) {
+    return array
+    .filter((product) => {
+            
+        if(product.stock %2 === 0) {
+            product.isEven = true;
+
+            return product;
+        }       
+    })
+    .sort((a, b) => b.stock - a.stock);
+
+}
+
+getEvensV2_1(info3);
