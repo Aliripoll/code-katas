@@ -1515,3 +1515,14 @@ Output:
         { name: "Motosierra con 6 velocidades", price: 1700, stock: 14, isEven: true }, 
         { name: "Tablón madera", price: 1000, stock: 6, isEven: true }
     ]       
+
+---
+
+#### Kata 52:
+
+Tu reto es retornar el array ordenado de manera ascendente que contengan solo números impares mayores que 20
+numbers: Un array de números. Dentro del cuerpo de la función checkArray debes escribir tu solución.
+
+
+Input: [-10, 1031, 34, 5, 71, 20, 19, -4, 456] 
+Output: [71, 1031]
