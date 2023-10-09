@@ -1526,3 +1526,18 @@ numbers: Un array de números. Dentro del cuerpo de la función checkArray debes
 
 Input: [-10, 1031, 34, 5, 71, 20, 19, -4, 456] 
 Output: [71, 1031]
+
+
+#### Kata 53:
+
+Dado un array de strings y una letra, debes devolver el número de coindencias de esa letra. No debe distinguir entre mayúsuculas y minúsculas.
+
+Ejemplo 1:
+Input: ["amor", "sol", "piedra", "vaso"], "a"
+Output: 3
+
+Input: ["amor", "sol", "piedra", "vaso"], "V"
+Output: 1
+
+Input: ["amor", "sol", "piedra", "vaso"], "z"
+Output: 0
